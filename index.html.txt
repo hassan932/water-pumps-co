@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Pumps Co.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Water Pumps Co.</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="parts.html">Parts & Accessories</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="intake.html">Request Information</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Supplying, Installing, and Repairing All Types of Water Pumps and Motors</h2>
+            <button>Explore Our Products</button>
+        </section>
+        <section class="introduction">
+            <h2>About Us</h2>
+            <p>Water Pumps Co. offers a wide range of water pumps, including centrifugal pumps, vertical turbine pumps, submersible pumps, sludge pumps, vertical multistage pumps, booster sets, fire fighting systems, dosing pumps, chemical pumps, plastic pumps, RO systems, electric motors, and more.</p>
+        </section>
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-list">
+                <div class="product-item">Centrifugal Pump</div>
+                <div class="product-item">Vertical Turbine Pump</div>
+                <div class="product-item">Submersible Pump</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Water Pumps Co. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Information - Water Pumps Co.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Water Pumps Co.</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="parts.html">Parts & Accessories</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="intake.html">Request Information</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intake-form">
+            <h2>Request Information</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+                
+                <label for="service">Type of Pump/Service Needed:</label>
+                <select id="service" name="service">
+                    <option value="Centrifugal Pump">Centrifugal Pump</option>
+                    <option value="Vertical Turbine Pump">Vertical Turbine Pump</option>
+                    <option value="Submersible Pump">Submersible Pump</option>
+                    <option value="Sludge Pump">Sludge Pump</option>
+                    <option value="Vertical Multistage Pump">Vertical Multistage Pump</option>
+                    <option value="Booster Sets">Booster Sets</option>
+                    <option value="Fire Fighting Systems">Fire Fighting Systems</option>
+                    <option value="Dosing Pumps">Dosing Pumps</option>
+                    <option value="Chemical Pumps">Chemical Pumps</option>
+                    <option value="Plastic Pumps">Plastic Pumps</option>
+                    <option value="RO Systems">RO Systems</option>
+                    <option value="Electric Motors">Electric Motors</option>
+                </select>
+                
+                <label for="details">Details of the Project/Issue:</label>
+                <textarea id="details" name="details" rows="4"></textarea>
+                
+                <label for="contact-method">Preferred Contact Method:</label>
+                <select id="contact-method"
